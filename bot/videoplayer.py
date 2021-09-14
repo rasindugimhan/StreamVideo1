@@ -30,7 +30,7 @@ group_call_factory = GroupCallFactory(app, GroupCallFactory.MTPROTO_CLIENT_TYPE.
 
 @Client.on_message(command(["vplay", f"vplay@{BOT_USERNAME}"]) & filters.group & ~filters.edited)
 async def vstream(_, m: Message):
-    if 1 in STREAM:
+    if 6 in STREAM:
         await m.reply_text("Reply To An Video To Stream! ❗️ ")
         return   
 
