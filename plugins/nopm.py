@@ -1,6 +1,6 @@
 import asyncio
 from pyrogram import Client, filters
-from helper.bot_utils import USERNAME
+from helpers.bot_utils import USERNAME
 from pyrogram.errors import BotInlineDisabled
 from config import API_ID, API_HASH, SESSION_STRING, REPLY_MESSAGE
 
