@@ -13,7 +13,7 @@ from pyrogram.types import Message
 from pytgcalls import GroupCallFactory
 from helper.bot_utils import USERNAME
 from config import AUDIO_CALL, VIDEO_CALL
-from helper.decorators import authorized_users_only
+from helpers.decorators import authorized_users_only
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 
