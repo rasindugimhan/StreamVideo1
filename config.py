@@ -15,3 +15,9 @@ SUDO_USERS = list(map(int, getenv("SUDO_USERS").split()))
 ASSISTANT_NAME = getenv("ASSISTANT_NAME", "dihanofficial")
 BOT_USERNAME = getenv("BOT_USERNAME", "TheNatsukiBot")
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ ! . ?").split())
+SESSION_STRING = getenv("SESSION_NAME", "")
+REPLY_MESSAGE = getenv("REPLY_MESSAGE", "")
+if REPLY_MESSAGE:
+    REPLY_MESSAGE = REPLY_MESSAGE
+else:
+    REPLY_MESSAGE = None
